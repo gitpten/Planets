@@ -56,8 +56,7 @@ namespace Planets
             return a.X * b.X + a.Y * b.Y;
         }
 
-        public double X { get;
-            set; }
+        public double X { get; set; }
         public double Y { get; set; }
 
         public double SquareAbs 
@@ -72,7 +71,7 @@ namespace Planets
         {
             get 
             { 
-                return (int)Math.Round(Math.Sqrt(SquareAbs));
+                return Math.Sqrt(SquareAbs);
             }
         }
 

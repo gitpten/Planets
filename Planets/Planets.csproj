@@ -88,5 +88,17 @@
   <ItemGroup>
     <None Include="bin\Debug\moon.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\merc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vines.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
